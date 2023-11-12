@@ -1,4 +1,4 @@
-#!/Users/frogstern/sandbox/user-account-python-webpack/.venv/bin/python3.12
+#!/Users/frogstern/sandbox/user-account-python-webpack/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
