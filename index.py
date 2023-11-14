@@ -4,4 +4,14 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<html>\
+        <head>\
+            <title>Python Test</title>\
+            <script src='/static/bundle.js' defer></script>\
+            <link rel='stylesheet' href='/static/styles.css' />\
+            <meta name='viewport' content='initial-scale=1, width=device-width' />\
+        </head>\
+        <body>\
+            <div id='root'></div>\
+        </body>\
+        </html>"
